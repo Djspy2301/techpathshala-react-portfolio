@@ -1,0 +1,28 @@
+.sec1 .content {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.sec1 .content .para p {
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+.sec1 .content .para {
+  width: 75%;
+}
+.sec1 .content h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sec1 .content h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}

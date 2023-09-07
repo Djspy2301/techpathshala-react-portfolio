@@ -1,0 +1,29 @@
+.text {
+  display: flex;
+  justify-content: end;
+}
+
+.text ul li {
+  list-style-type: none;
+}
+
+.text ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.text li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1.7rem 1rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.text li a:hover {
+  color: rgb(100, 100, 202);
+  font-weight: 600;
+}
