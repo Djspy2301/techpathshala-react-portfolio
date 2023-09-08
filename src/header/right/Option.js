@@ -1,34 +1,32 @@
 import "./Option.css";
 const Option = () => {
   return (
-    <div class="text">
+    <div className="text">
       <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li>
-          <a href="">About</a>
-        </li>
-        <li>
-          <a href="">Service</a>
-        </li>
-        <li>
-          <a href="">Portfolio</a>
-        </li>
-        <li>
-          <a href="">Pricing</a>
-        </li>
-        <li>
-          <a href="">Blog</a>
-        </li>
-        <li>
-          <a href="">Pages</a>
-        </li>
-        <li>
-          <a href="">Contact</a>
-        </li>
+        <List option="Home" />
+        <List option="About" />
+        <List option="Service" />
+        <List option="Portfolio" />
+        <List option="Pricing" />
+        <List option="Blog" />
+        <List option="Pages" />
+        <List option="Contact" />
       </ul>
     </div>
   );
+};
+
+const List = (prop) => {
+  return (
+    <ul>
+      <li>
+        <Anchor a={prop.option} />{" "}
+      </li>
+    </ul>
+  );
+};
+
+const Anchor = (prop) => {
+  return <a href="">{prop.a}</a>;
 };
 export default Option;

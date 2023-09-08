@@ -4,8 +4,8 @@ import Option from "./right/Option";
 const Nav = () => {
   return (
     <header>
-      <nav class="nav_bar">
-        <div class="row">
+      <nav className="nav_bar">
+        <div className="row">
           <Logo />
           <Option />
         </div>

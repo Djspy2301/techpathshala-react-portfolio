@@ -5,7 +5,7 @@ import Img from "./photo/Img";
 
 function App() {
   return (
-    <section class="sec1">
+    <section className="sec1">
       <Img />
       <div className="content">
         <Content />
